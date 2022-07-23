@@ -129,7 +129,7 @@ button {
     align-items: center;
     justify-content: center;
     margin: 3em;
-    gap: 1em;
+    gap: 3em;
 }
 
 .two img {
@@ -147,12 +147,37 @@ button {
 }
 
 .three {
-    background-color: green;
+    display: flex;
+    background-color: #e5e7eb;
     height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.three .quote {
+    width: 100%;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: justify;
+}
+
+.three .author {
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
 }
 
 .four {
-    background-color: blue;
+    background-color: rebeccapurple;
     height: 100%;
 }
 
